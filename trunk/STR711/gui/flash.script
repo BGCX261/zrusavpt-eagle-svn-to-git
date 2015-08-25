@@ -1,0 +1,30 @@
+flash banks
+
+# Configure the access parameters
+arm7_9 dcc_downloads enable
+arm7_9 fast_memory_access enable
+
+# Maximum speed of the programming interface - parport can do max 500kHz, decrease if you have connection problems
+# Removing this leads to default of 10kHz
+jtag_rclk 500
+
+# Init and halt the target
+init
+halt
+
+# Erase the sectors - to save some time, we only erase the first sector. Parameters are:
+# flash erase_sector num first last
+flash erase_sector 0 0 0
+
+# Write the flash, parameters are:
+# flash write_bank num filename offset
+# flash write_bank 0 main.bin 0x0
+
+flash write_bank 0 main.bin 0x0 
+
+# Init and reset the target to make it run
+init
+reset
+
+# Shutdown the OpenOCD, we do not need it to run as a server right now
+shutdown

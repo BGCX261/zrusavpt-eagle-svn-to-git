@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<project>
+  <fileVersion>2</fileVersion>
+  <fileChecksum>2994530542</fileChecksum>
+  <configuration>
+    <name>Debug</name>
+    <outputs>
+      <file>$PROJ_DIR$\partition.c</file>
+      <file>$PROJ_DIR$\sd_raw.c</file>
+      <file>$PROJ_DIR$\71x_it.c</file>
+      <file>$PROJ_DIR$\fat.c</file>
+      <file>$PROJ_DIR$\main.c</file>
+      <file>$PROJ_DIR$\..\source\bspi.c</file>
+    </outputs>
+  </configuration>
+</project>
+
+

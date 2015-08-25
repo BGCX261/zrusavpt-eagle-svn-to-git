@@ -1,0 +1,365 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<project>
+  <fileVersion>2</fileVersion>
+  <fileChecksum>2988236132</fileChecksum>
+  <configuration>
+    <name>Debug</name>
+    <outputs>
+      <file>$PROJ_DIR$\sd_raw_config.h</file>
+      <file>$PROJ_DIR$\..\source\bspi.c</file>
+      <file>$TOOLKIT_DIR$\examples\ST\STR71x\STR71xLibrary\source\gpio.c</file>
+      <file>$TOOLKIT_DIR$\inc\DLib_Product_string.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\71x_vect.o</file>
+      <file>$PROJ_DIR$\..\include\71x_type.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\fat.pbi</file>
+      <file>$PROJ_DIR$\partition.c</file>
+      <file>$PROJ_DIR$\sd_raw.c</file>
+      <file>$PROJ_DIR$\Debug\Obj\main.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\bspi.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\sd_raw.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\gpio.pbi</file>
+      <file>$PROJ_DIR$\sd_raw.h</file>
+      <file>$PROJ_DIR$\Debug\List\t_mmc.map</file>
+      <file>$TOOLKIT_DIR$\inc\DLib_Config_Normal.h</file>
+      <file>$TOOLKIT_DIR$\inc\stdint.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\uart.pbi</file>
+      <file>$TOOLKIT_DIR$\lib\dl4t_al_in.a</file>
+      <file>$PROJ_DIR$\fat.h</file>
+      <file>$TOOLKIT_DIR$\lib\rt4t_al.a</file>
+      <file>$PROJ_DIR$\Debug\Obj\t_mmc.pbd</file>
+      <file>$PROJ_DIR$\Debug\Obj\71x_init.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\71x_it.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\bspi.o</file>
+      <file>$PROJ_DIR$\byteordering.h</file>
+      <file>$PROJ_DIR$\fat.c</file>
+      <file>$TOOLKIT_DIR$\inc\string.h</file>
+      <file>$TOOLKIT_DIR$\inc\ycheck.h</file>
+      <file>$TOOLKIT_DIR$\inc\stdio.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\uart.o</file>
+      <file>$PROJ_DIR$\..\include\71x_lib.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\rccu.pbi</file>
+      <file>$TOOLKIT_DIR$\inc\yvals.h</file>
+      <file>$PROJ_DIR$\..\include\71x_map.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\rccu.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\fat.o</file>
+      <file>$PROJ_DIR$\sd-reader_config.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\71x_it.pbi</file>
+      <file>$PROJ_DIR$\..\include\gpio.h</file>
+      <file>$PROJ_DIR$\..\include\pcu.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\sd_raw.o</file>
+      <file>$PROJ_DIR$\Debug\Exe\t_mmc.out</file>
+      <file>$TOOLKIT_DIR$\inc\xencoding_limits.h</file>
+      <file>$TOOLKIT_DIR$\lib\shs_l.a</file>
+      <file>$PROJ_DIR$\Debug\Obj\partition.pbi</file>
+      <file>$PROJ_DIR$\..\include\71x_it.h</file>
+      <file>$TOOLKIT_DIR$\inc\DLib_Threads.h</file>
+      <file>$TOOLKIT_DIR$\inc\DLib_Defaults.h</file>
+      <file>$PROJ_DIR$\..\linker\STR71x_FLASH.icf</file>
+      <file>$PROJ_DIR$\Debug\Obj\71x_lib.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\main.pbi</file>
+      <file>$PROJ_DIR$\partition.h</file>
+      <file>$PROJ_DIR$\..\include\uart.h</file>
+      <file>$PROJ_DIR$\..\include\rccu.h</file>
+      <file>$PROJ_DIR$\..\include\bspi.h</file>
+      <file>$PROJ_DIR$\fat_config.h</file>
+      <file>$TOOLKIT_DIR$\examples\ST\STR71x\STR71xLibrary\startup\71x_init.s</file>
+      <file>$PROJ_DIR$\Debug\Obj\gpio.o</file>
+      <file>$PROJ_DIR$\71x_conf.h</file>
+      <file>$TOOLKIT_DIR$\inc\DLib_Product.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\partition.o</file>
+      <file>$PROJ_DIR$\partition_config.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\71x_lib.o</file>
+      <file>$TOOLKIT_DIR$\inc\ysizet.h</file>
+      <file>$TOOLKIT_DIR$\examples\ST\STR71x\STR71xLibrary\startup\71x_vect.s</file>
+      <file>$PROJ_DIR$\71x_it.c</file>
+      <file>$TOOLKIT_DIR$\examples\ST\STR71x\STR71xLibrary\source\rccu.c</file>
+      <file>$PROJ_DIR$\main.c</file>
+      <file>$TOOLKIT_DIR$\examples\ST\STR71x\STR71xLibrary\source\uart.c</file>
+      <file>$TOOLKIT_DIR$\examples\ST\STR71x\STR71xLibrary\source\71x_lib.c</file>
+    </outputs>
+    <file>
+      <name>$PROJ_DIR$\..\source\bspi.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 24</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 10</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 55 34 59 5</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 55 34 59 5</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>C:\Prog\EW5505\arm\examples\ST\STR71x\STR71xLibrary\source\gpio.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 58</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 12</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 39 34 59 5</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 39 34 59 5</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\partition.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 61</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 45</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 52 16 28 33 48 15 60 43 47 0 31 34 59 5 55 39 40 54 53 62 37 27 64 3</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 52 16 28 33 48 60 43 47 0 31 34 59 5 55 39 40 54 53 62 37 27 64 3</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\sd_raw.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 41</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 11</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 27 28 33 48 15 60 43 47 64 3 13 16 0 31 34 59 5 55 39 40 54 53</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 27 28 33 48 60 43 47 64 3 13 16 0 31 34 59 5 55 39 40 54 53</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Debug\Obj\t_mmc.pbd</name>
+      <inputs>
+        <tool>
+          <name>BILINK</name>
+          <file> 38 50 10 12 51 32 17</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\fat.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 36</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 6</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 25 16 28 33 48 15 60 43 47 52 0 31 34 59 5 55 39 40 54 53 62 19 56 37 27 64 3</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 25 16 28 33 48 60 43 47 52 0 31 34 59 5 55 39 40 54 53 62 19 56 37 27 64 3</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>[ROOT_NODE]</name>
+      <outputs>
+        <tool>
+          <name>ILINK</name>
+          <file> 42 14</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Debug\Exe\t_mmc.out</name>
+      <outputs>
+        <tool>
+          <name>ILINK</name>
+          <file> 14</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ILINK</name>
+          <file> 49 22 23 63 4 24 58 9 35 30 44 20 18</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>C:\Prog\EW5505\arm\examples\ST\STR71x\STR71xLibrary\startup\71x_init.s</name>
+      <outputs>
+        <tool>
+          <name>AARM</name>
+          <file> 22</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>C:\Prog\EW5505\arm\examples\ST\STR71x\STR71xLibrary\startup\71x_vect.s</name>
+      <outputs>
+        <tool>
+          <name>AARM</name>
+          <file> 4</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\71x_it.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 23</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 38</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 46 31 34 59 5 55 39 40 54 53</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 46 31 34 59 5 55 39 40 54 53</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>C:\Prog\EW5505\arm\examples\ST\STR71x\STR71xLibrary\source\rccu.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 35</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 32</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 54 34 59 5</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 54 34 59 5</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\main.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 9</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 51</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 29 28 33 48 15 60 43 47 64 34 59 5 31 55 39 40 54 53 13 16 0 52 62 19 56</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 29 28 33 48 60 43 47 64 34 59 5 31 55 39 40 54 53 13 16 0 52 62 19 56</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>C:\Prog\EW5505\arm\examples\ST\STR71x\STR71xLibrary\source\uart.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 30</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 17</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 53 34 59 5 54</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 53 34 59 5 54</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>C:\Prog\EW5505\arm\examples\ST\STR71x\STR71xLibrary\source\71x_lib.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 63</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 50</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 34 59 5</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 34 59 5</file>
+        </tool>
+      </inputs>
+    </file>
+  </configuration>
+</project>
+
+
